@@ -23,3 +23,11 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Publish .NET Core Project
+      run: dotnet publish -c Release -o release --nologo
+    - name: Change base-tag in index.html from / to GitHubPagesDemo
+      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorApp0\/" \/>/g' release/wwwroot/index.html
+    - name: Automatic Releases
+      uses: softprops/action-gh-release@v0.1.14
+      with:
+        files: release/wwwroot
