@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-tT5jYLiffKxjh8c+HzRBQopUxcRHpz+Q33yEM5YXPUE=",
+      "hash": "sha256-gPAncZ9kX\/x9Y6B7iPVUYqQ69U7ihbQgLRyZSoxVhr8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-lNqt2w5qOVhRrFHxjAL0zGmF6Im7kV6gRyK60MYgb+s=",
+      "hash": "sha256-J+gp9aRVefnTFAVopjiCL59vhul2b1ID4czKZT+0EOE=",
       "url": "_framework\/BlazorApp0.dll"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-WRRhMbQSp3fav+BV61bvxGbF4MI6cn85ILvismL0ZYM=",
+      "hash": "sha256-QpxDeF9NVQsQQ4AJRzX4ur068tKAO1zMvIrDWr5NWG0=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -229,5 +229,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "hoAaYLtN"
+  "version": "XQsv7l35"
 };
